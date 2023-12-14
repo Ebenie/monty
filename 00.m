@@ -1,4 +1,3 @@
-06.m
 push 0
 push 1
 push 2
@@ -15,5 +14,3 @@ pall
 
 push 7
 pall
-
-
