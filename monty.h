@@ -17,3 +17,8 @@ typedef struct stack_s
 void pint(int line_number);
 void push(int value, int line_number);
 void pall(int line_number);
+void nop(stack_t **stack, unsigned int line_number);
+void add(stack_t **stack, unsigned int line_number);
+void pop(stack_t **stack, unsigned int line_number);
+
+#endif
