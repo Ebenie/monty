@@ -1,16 +1,16 @@
 #include "monty.h"
 /**
  * f_pall - prints the stack
- * @stack: stack head
- * @line_counter: no used
+ * @head: stack head
+ * @counter: no used
  * Return: no return
 */
-void pall_handler(stack_t **stack, unsigned int line_counter)
+void f_pall(stack_t **head, unsigned int counter)
 {
 	stack_t *h;
-	(void)line_counter;
+	(void)counter;
 
-	h = *stack;
+	h = *head;
 	if (h == NULL)
 		return;
 	while (h)
@@ -19,3 +19,4 @@ void pall_handler(stack_t **stack, unsigned int line_counter)
 		h = h->next;
 	}
 }
+
