@@ -16,5 +16,5 @@ void pint_handler(stack_t **stack, unsigned int line_counter)
         exit(EXIT_FAILURE);
     }
 
-    printf("%d\n", (*stack)->value);
+    printf("%d\n", (*stack)->n);
 }
